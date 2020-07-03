@@ -1,1 +1,0 @@
-# mlh-hackcation-2020
