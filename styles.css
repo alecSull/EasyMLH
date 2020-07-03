@@ -1,0 +1,121 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #02c2b2;
+  }
+
+  .active {
+    background-color: #02c2b2;
+  }
+
+  body {
+      background-color: #333;
+  }
+  .mainBio {
+      text-align: center;
+      overflow: hidden;
+      background-color: #333;
+      color: white;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .leftBio{
+    align-content: left;
+    text-align: left;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25mm;
+  }
+
+  .rightbio{
+      align-content: right;
+      text-align: right;
+      overflow: hidden;
+      background-color: #333;
+      color: white;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-right: 25mm;
+  }
+
+  .twoColumn {
+    float: left;
+  width: 48%;
+  padding: 15px;
+  }
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  @media screen and (max-width: 600px)
+  {
+      .twoColumn {
+          width: 100%;
+      }
+  }
+
+  .tipsHeader{
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    font-size: xx-large;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 5mm;
+    padding-bottom: 10mm;
+  }
+
+  .link {
+      text-align: center;
+      overflow: hidden;
+      background-color: #333;
+      color: white;
+      font-size: 34px;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      padding-top: 5mm;
+  }
+
+  /* border text  ----------------- */
+  .border {
+      text-align: center;
+      overflow: hidden;
+      background-color: lightblue;
+      color: black;
+      font-size: 34px;
+      display: block;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
